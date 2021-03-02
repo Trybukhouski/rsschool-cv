@@ -6,103 +6,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <title>CV: Ruslan Trybukhouski</title>
 </head>
 
 <body>
     <header>
-        <div class="photo"></div>
+        <img class='photo-properties' src="./img/photo.jpg" alt="My photo">
         <div class="info">
-            <h1>Ruslan Trybukhouski</h1>
-            <p>FRONT-END DEVELOPER</p>
+            <h1>Ruslan
+                <br>Trybukhouski
+            </h1>
+            <p class="text">Front-end developer</p>
         </div>
     </header>
-    <main>
-        <section class="about-me">
-            <div class="first-block">
-                <div class="summary">
-                    <h2>summary</h2>
-                    <p>I’m Front-end developer with experience of sites, games and apps developing. Also I have UI/UX
-                        background in my career.
-                        <br>I am result-oriented and open to projects that improved my skills in front-end.
-                        <br>The main tools I use in development are JS, HTML, CSS, React, Webpack, Sass
-                    </p>
-                </div>
-                <div class="contacts">
-                    <h2>contacts</h2>
-                    <ul>
-                        <li>Mobile: +37525 993 5248</li>
-                        <li>E-mail: trybukhouskij@gmail.com</li>
-                        <li>Telegram</li>
-                        <li>Instagram</li>
-                        <li>GitHub</li>
-                        <li>LinkedIn</li>
-                    </ul>
-                </div>
+    <section class="first-block">
+        <div class="summary">
+            <h2>summary</h2>
+            <p class="text">I’m Front-end developer with experience of sites, games and apps developing. Also I have
+                UI/UX
+                background in my career.
+                <br>I am result-oriented and open to projects that improved my skills in front-end.
+                <br>The main tools I use in development are JS, HTML, CSS, React, Webpack, Sass
+            </p>
+        </div>
+        <div class="contacts">
+            <h2>contacts</h2>
+            <ul>
+                <li>Mobile: +37525 993 5248</li>
+                <li>E-mail: trybukhouskij@gmail.com</li>
+                <li><a class="contact-link" href="https://t.me/Foryort">Telegram</a></li>
+                <li><a class="contact-link" href="https://www.instagram.com/ruslan_trybukhouski/">Instagram</a></li>
+                <li><a class="contact-link" href="https://github.com/Trybukhouski">GitHub</a></li>
+                <li><a class="contact-link" href="https://www.linkedin.com/">LinkedIn</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="second-block">
+        <div class="career">
+            <h2>career</h2>
+            <ul>
+                <li>
+                    <span class="bold-text">UI/UX designer | freelance</span>
+                    <br><span class="light-text">August 2019 - November 2020</span>
+                    <br>Developing mockups on Figma, Photoshop, Illustrator
+                    <br>Creating an animation on Adobe Animate, After Effects
+                </li>
+                <li>
+                    <span class="bold-text">Front-end developer | freelance</span>
+                    <br><span class="light-text">November 2020 - Present</span>
+                    <br>Developing sites, games and apps
+                </li>
+            </ul>
+        </div>
+        <div class="skills">
+            <h2>skills</h2>
+            <ul>
+                <li>
+                    <span class="bold-text">Programming language:</span> JavaScript, HTML, CSS
+                </li>
+                <li>
+                    <span class="bold-text">Libraries:</span> React
+                </li>
+                <li>
+                    <span class="bold-text">Development tools:</span> VSCode, Git, Webpack
+                </li>
+            </ul>
+        </div>
+        <div class="education">
+            <h2>education</h2>
+            <ul>
+                <li>
+                    EPAM UPSkill Lab, Student (Front-end)
+                    <br><span class="light-text">October 2020 - December 2020</span>
+                </li>
+                <li>
+                    RS-School, Student (Front-end)
+                    <br><span class="light-text">February 2021 - Present</span>
+                </li>
+            </ul>
+        </div>
+        <div class="languages">
+            <h2>languages</h2>
+            <ul>
+                <li>
+                    English (A2)
+                </li>
+                <li>
+                    Polish (A2)
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="portfolio">
+        <h2>portfolio</h2>
+        <div class="works">
+            <div class="example">
+                <p class="text code">
+                    <span class="func">function switcheroo(x)</span>{
+                    <br>return x.split('')
+                    <br>.map( el => el === 'a' ?
+                    <br>'b' : el === 'b' ?
+                    <br>'a' : el)
+                    <br>.join('');
+                    <br>}
+                </p>
             </div>
-            <div class="second-block">
-                <div class="career">
-                    <h2>career</h2>
-                    <ul>
-                        <li>
-                            UI/UX developer August 2019 - November 2020
-                            Developing mockups on Figma, Photoshop, Illustrator
-                            Creating an animation on Adobe Animate, After Effects
-                        </li>
-                        <li>
-                            Frontend developer November 2020 - Present
-                            Developing sites, games and apps
-                        </li>
-                    </ul>
-                </div>
-                <div class="skills">
-                    <h2>skills</h2>
-                    <ul>
-                        <li>
-                            Programming language: JavaScript, HTML, CSS
-                        </li>
-                        <li>
-                            Libraries: React
-                        </li>
-                        <li>
-                            Development tools: VSCode, Git, Webpack
-                        </li>
-                    </ul>
-                </div>
-                <div class="education">
-                    <h2>education</h2>
-                    <ul>
-                        <li>
-                            EPAM UPSkill Lab, Student (Front-end)
-                            October 2020 - December 2020
-                        </li>
-                        <li>
-                            RS-School, Student (Front-end)
-                            November 2020 - Present
-                        </li>
-                    </ul>
-                </div>
-                <div class="languages">
-                    <h2>languages</h2>
-                    <ul>
-                        <li>
-                            English (A2)
-                        </li>
-                        <li>
-                            Polish (A2)
-                        </li>
-                    </ul>
-                </div>
+            <div class="example">
+                <p class="text code">
+                    <span class="func">function switcheroo(x)</span>{
+                    <br>return x.split('')
+                    <br>.map( el => el === 'a' ?
+                    <br>'b' : el === 'b' ?
+                    <br>'a' : el)
+                    <br>.join('');
+                    <br>}
+                </p>
             </div>
-        </section>
-        <portfolio>
-            <h2>portfolio</h2>
-            <project></project>
-            <project></project>
-            <project></project>
-            <p>More code in my codewars-profile</p>
-        </portfolio>
-    </main>
+            <div class="example">
+                <p class="text code">
+                    <span class="func">function switcheroo(x)</span>{
+                    <br>return x.split('')
+                    <br>.map( el => el === 'a' ?
+                    <br>'b' : el === 'b' ?
+                    <br>'a' : el)
+                    <br>.join('');
+                    <br>}
+                </p>
+            </div>
+        </div>
+        <p class="text">More code in my <a class="codewars-link" href="https://www.codewars.com/users/Trybukhouski">
+                codewars-profile</a></p>
+    </section>
 </body>
 
 </html>
