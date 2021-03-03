@@ -1,8 +1,12 @@
-.document__body {
-    margin: auto;
+/* DOCUMENT BLOCK (+ ELEMENTS & MODIFICATORS) */
+html {
     font-size: 16px;
 }
+.html__body {
+    margin: auto;
+}
 
+/* BODY BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .body {
     width: 80vw;
@@ -18,6 +22,7 @@
     grid-column: left/right;
 }
 
+/* HEADER BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .header {
     display: grid;
@@ -31,16 +36,20 @@
     align-self: center;
     justify-self: center;
     grid-row: start/end;
+    margin: 1.5rem;
 }
 .header__title {
     align-self: end;
     justify-self:left;
+    margin: 1.5rem;
 }
 .header__text {
     align-self: start;
     justify-self:left; 
+    margin: 1.5rem;
 }
 
+/* SECTION BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .section {
 
@@ -52,16 +61,20 @@
     background-color: #ffffff;
 }
 
+/* FOOTER BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .footer {
     background-color: #023246;
 }
 
+/* AVATAR BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .avatar {
     height: 30vh;
     border-radius: 100%;
 }
+
+/* TITLE BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .title {
     color: white;
@@ -70,6 +83,7 @@
     text-transform: uppercase;
 }
 
+/* TEXT-BLOCK BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .text-block {
 
@@ -81,6 +95,7 @@
     margin: 1.5rem;
 }
 
+/* H1 BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .h1 {   
     font-family: 'Poppins', sans-serif;
@@ -95,6 +110,7 @@
     color: white;
 }
 
+/* TEXT BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .text {
     font-family: 'Poppins', sans-serif;
@@ -133,6 +149,7 @@
     color: white;
 }
 
+/* PORTFOLIO BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .portfolio {
     display: grid;
@@ -142,6 +159,8 @@
     margin: 1.5rem;
     justify-self: stretch
 }
+
+/* PROJECT BLOCK (+ ELEMENTS & MODIFICATORS) */
 
 .project {
     background-color: #073b52;
