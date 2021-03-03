@@ -1,7 +1,5 @@
 @media screen and (max-width: 800px) {
 
-    /* BODY BLOCK (+ ELEMENTS & MODIFICATORS) */
-
     .body {
         grid-template-columns: [left] 1fr 1fr [right];
         grid-template-rows: repeat(3 1fr);
@@ -11,8 +9,6 @@
 
 @media screen and (max-width: 715px) {
 
-    /* BODY BLOCK (+ ELEMENTS & MODIFICATORS) */
-
     .body {
         width: 90vw;
     }
@@ -21,7 +17,6 @@
 
 @media screen and (max-width: 670px) {
 
-    /* DOCUMENT BLOCK (+ ELEMENTS & MODIFICATORS) */
     html {
         font-size: 15px;
     }
@@ -30,15 +25,11 @@
 
 @media screen and (max-width: 600px) {
 
-    /* BODY BLOCK (+ ELEMENTS & MODIFICATORS) */
-
     .body {
-        width: 100vw;
+        width: 100%;
         grid-template-columns: [left] 1fr [right];
         grid-template-rows: repeat(4 1fr);
     }
-
-    /* PORTFOLIO BLOCK (+ ELEMENTS & MODIFICATORS) */
 
     .portfolio {
         grid-template-columns: 1fr;
@@ -48,8 +39,6 @@
 }
 
 @media screen and (max-width: 550px) {
-
-    /* HEADER BLOCK (+ ELEMENTS & MODIFICATORS) */
 
     .header {
         grid-template-columns: 1fr;
@@ -69,8 +58,6 @@
         justify-self:center; 
         margin: 0.2rem 0.2rem 2rem 0.2rem;
     }
-
-    /* TITLE BLOCK (+ ELEMENTS & MODIFICATORS) */
 
     .title {
         text-align: center;
