@@ -118,25 +118,22 @@
             </div>
             <div class="portfolio__project project">
                 <p class="text project__text">
-                    <span class='text__text-part--yellow-mini-text'>function switcheroo(x)</span><span
-                        class='text__text-part--white-mini-text'>{
-                        <br>return x.split('')
-                        <br>.map( el => el === 'a' ?
-                        <br>'b' : el === 'b' ?
-                        <br>'a' : el)
-                        <br>.join('');
-                        <br>}</span>
+                    <span class='text__text-part--yellow-mini-text'>let generateName = () =></span><span
+                        class='text__text-part--white-mini-text'>
+                        <br>Math.random()
+                        <br>.toString(36)
+                        <br>.slice(2,8);</span>
                 </p>
             </div>
             <div class="portfolio__project project">
                 <p class="text project__text">
-                    <span class='text__text-part--yellow-mini-text'>function switcheroo(x)</span><span
+                    <span class='text__text-part--yellow-mini-text'>function solution(number)</span><span
                         class='text__text-part--white-mini-text'>{
-                        <br>return x.split('')
-                        <br>.map( el => el === 'a' ?
-                        <br>'b' : el === 'b' ?
-                        <br>'a' : el)
-                        <br>.join('');
+                        <br>var sum = 0;
+                        <br>for (let i = 1; i > number; i++) {
+                        <br>if (i % 3 === 0 || i % 5 === 0) sum += i;
+                        <br>}
+                        <br> return sum;
                         <br>}</span>
                 </p>
             </div>
