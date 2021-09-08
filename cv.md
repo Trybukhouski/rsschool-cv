@@ -2,42 +2,42 @@
 FRONT-END DEVELOPER
 
 ## SUMMARY
-I'm Front-end developer with experience of sites, games and apps developing. Also I have UI/UX background in my career.
+I'm Front-end developer with experience of sites, games and apps developing. Also I have UI/UX background in my career.  
 I am result-oriented and open to projects that improved my skills in front-end.
 The main tools I use in development are JS, TS, HTML, CSS, React, Webpack, Sass
 
 ## CAREER
-- **UI/UX developer - freelance**</br> 
-_August 2019 - November 2020_</br>
+- **UI/UX developer - freelance**   
+_August 2019 - November 2020_  
 Developing mockups on Figma, Photoshop, Illustrator
-Creating an animation on Adobe Animate, After Effects</br>
+Creating an animation on Adobe Animate, After Effects  
 [Portfolio](https://www.behance.net/trybukhouski)
-- **Frontend developer - freelance**</br>
-_November 2020 - Present_</br>
-Developing sites, games and apps</br>
+- **Frontend developer - freelance**  
+_November 2020 - Present_  
+Developing sites, games and apps  
 [Portfolio](https://github.com/Trybukhouski)
 
 ## EDUCATION
-- **Course EPAM UPSkill Lab - EPAM**</br>
-_October 2020 - December 2020_</br>
-Student (Front-end)</br>
+- **Course EPAM UPSkill Lab - EPAM**  
+_October 2020 - December 2020_  
+Student (Front-end)  
 [Sertificate](/assets/imgs/UpSkillLab_Certificate.pdf)
-- **Course JS/FE Pre-school (JavaScript) - RS SCHOOL**</br>
-_July 2021 - September 2021_</br>
-Student (Front-end)</br>
+- **Course JS/FE Pre-school (JavaScript) - RS SCHOOL**  
+_July 2021 - September 2021_  
+Student (Front-end)  
 [Sertificate](/assets/imgs/JS_FE_Pre_School_Certificate.pdf)
-- **Course JavaScript/Front-end 2021Q3 - RS SCHOOL**</br>
-_September 2021 - Present_</br>
+- **Course JavaScript/Front-end 2021Q3 - RS SCHOOL**  
+_September 2021 - Present_  
 Student (Front-end)
 
 ## SKILLS
-- **Programming languages:**</br>
+- **Programming languages:**  
 JavaScript, TypeScript, HTML, CSS
-- **Libraries:**</br>
+- **Libraries:**  
 React
-- **Technologies:**</br>
+- **Technologies:**  
 Webpack, SCSS
-- **Development tools:**</br>
+- **Development tools:**  
 VSCode, Git
 
 ## LANGUAGES
