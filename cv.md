@@ -9,7 +9,7 @@ The main tools I use in development are JS, TS, HTML, CSS, React, Webpack, Sass
 ## CAREER
 - **UI/UX developer - freelance**   
 _August 2019 - November 2020_  
-Developing mockups on Figma, Photoshop, Illustrator
+Developing mockups on Figma, Photoshop, Illustrator  
 Creating an animation on Adobe Animate, After Effects  
 [Portfolio](https://www.behance.net/trybukhouski)
 - **Frontend developer - freelance**  
