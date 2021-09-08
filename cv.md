@@ -43,3 +43,11 @@ VSCode, Git
 ## LANGUAGES
 - English (A2)
 - Polish (A2)
+
+## CONTACTS
+* Mobile: +37525 993 5248
+* [E-mail](trybukhouskij@gmail.com)
+* [Telegram](https://t.me/Foryort)
+* [Instagram](https://www.instagram.com/ruslan_trybukhouski/)
+* [GitHub](https://github.com/Trybukhouski)
+* [LinkedIn](https://linked.in/trybukhouski)
