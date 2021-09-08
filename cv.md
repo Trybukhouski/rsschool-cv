@@ -2,7 +2,7 @@
 FRONT-END DEVELOPER
 
 ## SUMMARY
-> I'm Front-end developer with experience of sites, games and apps developing. Also I have UI/UX background in my career.
+I'm Front-end developer with experience of sites, games and apps developing. Also I have UI/UX background in my career.
 I am result-oriented and open to projects that improved my skills in front-end.
 The main tools I use in development are JS, TS, HTML, CSS, React, Webpack, Sass
 
@@ -29,3 +29,13 @@ Student (Front-end)</br>
 - **Course JavaScript/Front-end 2021Q3 - RS SCHOOL**</br>
 _September 2021 - Present_</br>
 Student (Front-end)
+
+## SKILLS
+- **Programming languages:**</br>
+JavaScript, TypeScript, HTML, CSS
+- **Libraries:**</br>
+React
+- **Technologies:**</br>
+Webpack, SCSS
+- **Development tools:**</br>
+VSCode, Git
