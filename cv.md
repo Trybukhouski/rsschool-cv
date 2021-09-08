@@ -15,7 +15,14 @@ _November 2020 - Present_</br>
 Developing sites, games and apps</br>
 [Portfolio](https://github.com/Trybukhouski)
 ## EDUCATION
-- **EPAM UPSkill Lab**</br>
+- **Course EPAM UPSkill Lab - EPAM**</br>
 _October 2020 - December 2020_</br>
 Student (Front-end)</br>
 [Sertificate](/assets/imgs/UpSkillLab_Certificate.pdf)
+- **Course JS/FE Pre-school (JavaScript) - RS SCHOOL**</br>
+_July 2021 - September 2021_</br>
+Student (Front-end)</br>
+[Sertificate](/assets/imgs/JS_FE_Pre_School_Certificate.pdf)
+- **Course JavaScript/Front-end 2021Q3 - RS SCHOOL**</br>
+_September 2021 - Present_</br>
+Student (Front-end)
