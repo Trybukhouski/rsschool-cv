@@ -39,3 +39,7 @@ React
 Webpack, SCSS
 - **Development tools:**</br>
 VSCode, Git
+
+## LANGUAGES
+- English (A2)
+- Polish (A2)
