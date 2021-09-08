@@ -14,3 +14,8 @@ Creating an animation on Adobe Animate, After Effects</br>
 _November 2020 - Present_</br>
 Developing sites, games and apps</br>
 [Portfolio](https://github.com/Trybukhouski)
+## EDUCATION
+- **EPAM UPSkill Lab**</br>
+_October 2020 - December 2020_</br>
+Student (Front-end)</br>
+[Sertificate](/assets/imgs/UpSkillLab_Certificate.pdf)
