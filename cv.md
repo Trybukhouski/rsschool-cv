@@ -4,7 +4,7 @@ FRONT-END DEVELOPER
 > I'm Front-end developer with experience of sites, games and apps developing. Also I have UI/UX background in my career.
 I am result-oriented and open to projects that improved my skills in front-end.
 The main tools I use in development are JS, TS, HTML, CSS, React, Webpack, Sass
-##CAREER
+## CAREER
 - **UI/UX developer - freelance**</br> 
 _August 2019 - November 2020_</br>
 Developing mockups on Figma, Photoshop, Illustrator
