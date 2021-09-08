@@ -44,6 +44,17 @@ VSCode, Git
 - English (A2)
 - Polish (A2)
 
+## PORTFOLIO
+```
+function switcheroo(x){  
+  return x.split('')
+    .map(el =>   
+      el === 'b' ? 'a' : el)
+    .join('');  
+}
+```  
+More code in my [codewars-profile](https://www.codewars.com/users/Trybukhouski)
+
 ## CONTACTS
 * Mobile: +37525 993 5248
 * [E-mail](trybukhouskij@gmail.com)
