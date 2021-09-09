@@ -1,0 +1,24 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "* [Markdown format](https://Trybukhouski.github.io/rsschool-cv/cv) * Html format",
+  "main": "script.js",
+  "scripts": {
+    "test": "htmlhint path/to/html/files/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trybukhouski/rsschool-cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trybukhouski/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/Trybukhouski/rsschool-cv#readme",
+  "devDependencies": {
+    "htmlhint": "^0.15.1",
+    "stylelint-config-htmlacademy": "^0.1.10"
+  }
+}
