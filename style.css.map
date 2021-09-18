@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.scss",
+        "scss-catalogs/base/_module.scss",
+        "scss-catalogs/base/_reset.scss",
+        "scss-catalogs/abstracts/_module.scss",
+        "scss-catalogs/components/_module.scss",
+        "scss-catalogs/layout/_module.scss",
+        "scss-catalogs/pages/_module.scss",
+        "scss-catalogs/themes/_module.scss",
+        "scss-catalogs/vendors/_module.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
