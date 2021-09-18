@@ -131,4 +131,67 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.title {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: "Work Sans", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.avatar {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #f0ac2f;
+  background-image: url("assets/imgs/background.jpg");
+  background-size: cover;
+  padding: 30px;
+}
+
+.header__avatar {
+  width: 200px;
+  height: 200px;
+}
+
+.header__main-info {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 40px;
+}
+
+.header__title {
+  margin-bottom: 25px;
+}
+
+.html__body {
+  background-color: #eceaea;
+}
+
+.body__header {
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
