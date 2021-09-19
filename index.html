@@ -22,10 +22,132 @@
       </p>
     </div>
   </header>
+  <main class="main body__main">
+    <aside class="section">
+      <article class="article">
+        <h2 class="subtitle article__subtitle">summary</h2>
+        <p class="text text_dark">I’m Front-end developer with experience of sites, games and apps
+            developing. Also I have
+            UI/UX
+            background in my career.
+            <br>I am result-oriented and open to projects that improved my skills in front-end.
+            <br>The main tools I use in development are JS, HTML, CSS, React, Webpack, Sass
+        </p>
+      </article>
+      <article class="article">
+        <h2 class="subtitle article__subtitle">contacts</h2>
+          <ul class="text text_dark">
+            <li>Mobile: +37525 993 5248</li>
+            <li>E-mail: trybukhouskij@gmail.com</li>
+            <li><a class="text_link" href="https://t.me/Foryort">Telegram</a></li>
+            <li><a class="text_link" href="https://www.instagram.com/ruslan_trybukhouski/">Instagram</a></li>
+            <li><a class="text_link" href="https://github.com/Trybukhouski">GitHub</a>
+            </li>
+            <li><a class="text_link" href="https://www.linkedin.com/">LinkedIn</a></li>
+          </ul>
+      </article>
+    </aside>
+    <section class="section section_grey">
+      <article class="article">
+        <h2 class="subtitle article__subtitle">career</h2>
+        <ul class="list text text_dark">
+            <li>
+              <p class="text_bold">UI/UX designer | freelance</p>
+              <p class="text_light">August 2019 - November 2020</p>
+              <p>Developing mockups on Figma, Photoshop, Illustrator
+              <br>Creating an animation on Adobe Animate, After Effects</p>
+            </li>
+            <li>
+                <p class="text_bold">Front-end developer | freelance</p>
+                <p class="text_light">November 2020 - Present</p>
+                <p>Developing sites, games and apps</p>
+            </li>
+        </ul>
+      </article>
+      <article class="article">
+        <h2 class="subtitle article__subtitle">skills</h2>
+        <ul class="list text text_dark">
+          <li>
+            <p class="text_bold">Programming languages:</p>
+            <p>JavaScript, HTML, CSS</p>
+          </li>
+          <li>
+            <p class="text_bold">Libraries:</p>
+            <p>React</p>
+          </li>
+          <li>
+            <p class="text_bold">Development tools:</p>
+            <p>VSCode, Git, Webpack</p>
+          </li>
+        </ul>
+      </article>
+      <article class="article">
+        <h2 class="subtitle article__subtitle">education</h2>
+        <ul class="list text text_dark">
+          <li>
+            <p>EPAM UPSkill Lab, Student (Front-end)</p>
+            <p class="text_light">October 2020 - December 2020</p>
+          </li>
+          <li>
+            <p>RS-School, Student (Front-end)</p>
+            <p class="text_light">February 2021 - Present</p>
+          </li>
+        </ul>
+      </article>
+      <article class="article">
+        <h2 class="subtitle article__subtitle">languages</h2>
+        <ul class="text text_dark">
+            <li>English (A2)</li>
+            <li>Polish (A2)</li>
+        </ul>
+      </article>
+    </section>
+    <section class="section section_blue main__section">
+      <div class="article">
+        <h2 class="subtitle subtitle_white article__subtitle">portfolio</h2>
+        <div class="carousel section__carousel">
+          <div class="card">
+            <code class="text text_small">
+              <span class="text_yellow">function switcheroo(x)</span> {
+              <br>&nbsp return x.split('')
+              <br>&nbsp &nbsp .map( el => el === 'a' ?
+              <br>&nbsp &nbsp &nbsp 'b' : el === 'b' ?
+              <br>&nbsp &nbsp &nbsp &nbsp 'a' : el)
+              <br>&nbsp &nbsp .join('')
+              <br>}
+            </code>
+          </div>
+          <div class="card">
+            <code class="text text_small">
+              <span class="text_yellow">let generateName = () =></span>
+              <br>&nbsp Math.random()
+              <br>&nbsp &nbsp .toString(36)
+              <br>&nbsp &nbsp .slice(2,8);
+              <br>}
+            </code>
+          </div>
+          <div class="card">
+            <code class="text text_small">
+              <span class="text_yellow">function solution(number)</span> {
+              <br>&nbsp let sum = 0;
+              <br>&nbsp for (let i = 1; i > number; i++) {
+              <br>&nbsp &nbsp if (i % 3 === 0 || i % 5 === 0) sum += i;
+              <br>&nbsp }
+              <br>&nbsp return sum;
+              <br>}
+            </code>
+          </div>
+        </div>
+        <p class="text text_white portfolio__text">More code in my <a
+                class="text text_link text_yellow" href="https://www.codewars.com/users/Trybukhouski">
+                codewars-profile</a></p>
+      </div>
+    </section>
+  </main>
   <footer class="footer body__footer">
     <div class="dev-info">
       <p class="text text_light dev-info__text">Created by Trybukhouski
-        <a class="text_link" href="https://github.com/Trybukhouski">(GitHub)</a>
+        <a class="text_yellow text_link" href="https://github.com/Trybukhouski">(GitHub)</a>
       </p>
       <p class="text text_light">2021</p>
     </div>
