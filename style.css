@@ -328,7 +328,7 @@ a {
 }
 
 .dev-info__text {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .main {
@@ -336,7 +336,7 @@ a {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  background-color: #f0ac2f;
+  background-color: #ffffff;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: [left] 1fr 2fr [right];
