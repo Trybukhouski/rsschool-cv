@@ -427,7 +427,7 @@ a {
 
 @media (max-width: 600px) {
   .header {
-    width: 100vw;
+    width: 100%;
   }
 }
 
@@ -483,7 +483,7 @@ a {
 
 @media (max-width: 600px) {
   .footer {
-    width: 100vw;
+    width: 100%;
   }
 }
 
@@ -526,7 +526,7 @@ a {
 
 @media (max-width: 600px) {
   .main {
-    width: 100vw;
+    width: 100%;
   }
 }
 
