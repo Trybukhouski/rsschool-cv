@@ -534,6 +534,10 @@ a {
   grid-column: left/right;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .html__body {
   background-color: #eceaea;
 }
