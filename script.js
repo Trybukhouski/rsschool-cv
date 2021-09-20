@@ -5,6 +5,11 @@ console.log("Hello");
 const sertificates = document.querySelectorAll(".sertificate");
 const cover = document.querySelector(".cover");
 const content = cover.querySelector(".content");
+const burgerMenu = document.querySelector(".burger-menu");
+const menu = document.querySelector(".menu");
+const menuPoints = menu.querySelectorAll("li");
+
+// Popup
 
 sertificates.forEach(el => el.addEventListener("click", showCover))
 cover.addEventListener("click", hideCover);
@@ -26,6 +31,15 @@ function loadSertificate(el) {
   }
 }
 
+// Burger menu
+
+burgerMenu.addEventListener("click", toggleMenu);
+menuPoints.forEach(el => el.addEventListener("click", toggleMenu));
+
+function toggleMenu() {
+  burgerMenu.classList.toggle("burger-menu_on");
+  menu.classList.toggle("menu_on");
+}
 
 
 // DATA
