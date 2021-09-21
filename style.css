@@ -212,12 +212,36 @@ a {
 }
 
 .avatar {
-  border-radius: 100%;
+  position: relative;
+  border-radius: 0 0 100px 100px;
+  width: 200px;
+  height: 230px;
   overflow: hidden;
 }
 
 .avatar img {
+  position: absolute;
+  bottom: 0;
   width: 100%;
+  z-index: 2;
+}
+
+.avatar img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.avatar .avatar-bg {
+  position: absolute;
+  background-color: #eceaea;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -344,7 +368,7 @@ a {
   position: absolute;
   top: 32px;
   right: 32px;
-  z-index: 2;
+  z-index: 4;
   background-image: url("assets/icns/menu-button.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -375,7 +399,7 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 @media (max-width: 730px) {
@@ -429,11 +453,6 @@ a {
   .header {
     width: 100%;
   }
-}
-
-.header__avatar {
-  width: 200px;
-  height: 200px;
 }
 
 @media (max-width: 730px) {
