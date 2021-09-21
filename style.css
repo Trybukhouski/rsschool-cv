@@ -142,6 +142,10 @@ a {
   color: inherit;
 }
 
+.section-title {
+  display: none;
+}
+
 .title {
   font-family: "Work Sans", sans-serif;
   color: #ffffff;
