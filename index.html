@@ -16,9 +16,6 @@
       <img src="assets/imgs/avatar-img.png" alt="avatar">
       <div class="avatar-bg"></div>
     </div>
-    <!-- <div class="header__avatar avatar">
-      <img src="./assets/imgs/avatar.jpg" alt="My photo">
-    </div> -->
     <div class="main-info header__main-info">
       <h1 class="title header__title">Ruslan <br>Trybukhouski
       </h1>
@@ -30,8 +27,8 @@
       <div class="article">
         <h2 class="subtitle subtitle_underline-dark article__subtitle">contacts</h2>
         <ul class="text">
-          <li>Mobile:&nbsp+37525&nbsp993&nbsp5248</li>
-          <li>Email:&nbsptrybukhouskij@gmail.com</li>
+          <li>Mobile: +37525-9935248</li>
+          <li>Email: trybukhouskij@gmail.com</li>
           <li><a class="text_link" href="https://t.me/Foryort">Telegram</a></li>
           <li><a class="text_link" href="https://www.instagram.com/ruslan_trybukhouski/">Instagram</a></li>
           <li><a class="text_link" href="https://github.com/Trybukhouski">GitHub</a>
@@ -157,32 +154,31 @@
         <div class="carousel section__carousel">
           <div class="card">
             <code class="text text_small">
-              <span class="text_yellow">function switcheroo(x)</span> {
-              <br>&nbsp return x.split('')
-              <br>&nbsp &nbsp .map( el => el === 'a' ?
-              <br>&nbsp &nbsp &nbsp 'b' : el === 'b' ?
-              <br>&nbsp &nbsp &nbsp &nbsp 'a' : el)
-              <br>&nbsp &nbsp .join('')
-              <br>}
+              "function switcheroo(x) {
+                return x.split('')
+                  .map( el => el === 'a' ?
+                    'b' : el === 'b' ?
+                      'a' : el)
+                  .join('')"
             </code>
           </div>
           <div class="card">
             <code class="text text_small">
-              <span class="text_yellow">let generateName = () =></span>
-              <br>&nbsp Math.random()
-              <br>&nbsp &nbsp .toString(36)
-              <br>&nbsp &nbsp .slice(2,8);
+              "let generateName = () =>
+                Math.random()
+                  .toString(36)
+                  .slice(2,8);"
             </code>
           </div>
           <div class="card">
             <code class="text text_small">
-              <span class="text_yellow">function solution(number)</span> {
-              <br>&nbsp let sum = 0;
-              <br>&nbsp for (let i = 1; i > number; i++) {
-              <br>&nbsp &nbsp if (i % 3 === 0 || i % 5 === 0) sum += i;
-              <br>&nbsp }
-              <br>&nbsp return sum;
-              <br>}
+              "function solution(number) {
+                let sum = 0;
+                for (let i = 1; i > number; i++) {
+                  if (i % 3 === 0 || i % 5 === 0) sum += i;
+                }
+                return sum;
+              }"
             </code>
           </div>
         </div>
