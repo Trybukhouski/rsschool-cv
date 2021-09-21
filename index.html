@@ -51,7 +51,6 @@
   </header>
   <main class="main body__main">
     <aside class="section">
-      <h2 class="section-title">section</h2>
       <article class="article">
         <h2 id="summary" class="subtitle article__subtitle">summary</h2>
         <p class="text text_dark">I’m Front-end developer with experience of sites, games and apps
@@ -62,9 +61,6 @@
             <br>The main tools I use in development are JS, HTML, CSS, React, Webpack, Sass
         </p>
       </article>
-      <div class="article">
-        <iframe class="video" src="https://www.youtube.com/embed/9GOJ3G3ZqIg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
       <article class="article">
         <h2 class="subtitle article__subtitle">contacts</h2>
           <ul class="text text_dark">
@@ -79,7 +75,6 @@
       </article>
     </aside>
     <section class="section section_grey">
-      <h2 class="section-title">section</h2>
       <article class="article">
         <h2 id="career" class="subtitle article__subtitle">career</h2>
         <ul class="list text text_dark">
@@ -151,38 +146,79 @@
       </article>
     </section>
     <section class="section section_blue main__section">
-      <h2 class="section-title">section</h2>
       <div class="article">
         <h2 id="best-works" class="subtitle subtitle_white article__subtitle">portfolio</h2>
         <div class="carousel section__carousel">
           <div class="card">
-            <code class="text text_small">
-              "function switcheroo(x) {
-                return x.split('')
-                  .map( el => el === 'a' ?
-                    'b' : el === 'b' ?
-                      'a' : el)
-                  .join('')"
-            </code>
+            <h3 class="text text_yellow text_link"><a
+              href="https://www.codewars.com/kata/546dba39fa8da224e8000467/train/javascript">
+              Cata: Run-length encoding</a>
+            </h3>
+            <pre>
+              <code class="text text_small">
+function runLengthEncoding(str){
+  const result = [];
+  let counter = 1;
+  for (let i = 0; i < str.length; i++) {
+    if(str[i] === str[i + 1]) {
+      counter++;
+    } else {
+      result.push([counter, str[i]]);
+      counter = 1;
+    }
+  }
+  return result;
+}
+              </code>
+            </pre>
           </div>
           <div class="card">
-            <code class="text text_small">
-              "let generateName = () =>
-                Math.random()
-                  .toString(36)
-                  .slice(2,8);"
-            </code>
+            <h3 class="text text_yellow text_link"><a
+              href="https://www.codewars.com/kata/59fa8e2646d8433ee200003f">
+              Cata: Sorting by bits</a>
+            </h3>
+            <pre>
+              <code class="text text_small">
+function sortByBit(arr) {
+  return arr.sort(function(a, b) {
+    if(bitCounter(a) !== bitCounter(b)) {
+      return bitCounter(a) - bitCounter(b);
+    } else {
+        return a - b;
+      }
+  })
+}
+
+function bitCounter(num) {
+  return num
+    .toString(2)
+    .split('')
+    .filter(el => el === '1')
+    .length
+}
+              </code>
+            </pre>
           </div>
           <div class="card">
-            <code class="text text_small">
-              "function solution(number) {
-                let sum = 0;
-                for (let i = 1; i > number; i++) {
-                  if (i % 3 === 0 || i % 5 === 0) sum += i;
-                }
-                return sum;
-              }"
-            </code>
+            <h3 class="text text_yellow text_link"><a
+              href="https://www.codewars.com/kata/596f72bbe7cd7296d1000029">
+              Cata: Array Deep Count</a>
+            </h3>
+            <pre>
+              <code class="text text_small">
+function deepCount(a) {
+  let count = 0;
+  function recursion(a) {
+    a.forEach(el => {
+      count++;
+      if(Array.isArray(el)) recursion(el);
+    })
+    return count;
+  }
+  return recursion(a);
+}
+              </code>
+            </pre>
           </div>
         </div>
         <p class="text">More code in my
@@ -192,17 +228,10 @@
     </section>
   </main>
   <footer class="footer body__footer">
-    <div class="dev-info">
-      <p class="text text_small text_light dev-info__text">Created by Trybukhouski
-        <a class="text_link" href="https://github.com/Trybukhouski">(GitHub)</a>
-      </p>
-      <p class="text text_small text_light">2021</p>
-    </div>
-    <div class="logo footer__logo">
-      <a href="https://rs.school/js/">
-        <img src="assets/icns/rs_school_js.svg" alt="course-logo">
-      </a>
-    </div>
+    <p class="text text_small text_light dev-info__text">Created by Trybukhouski
+      <a class="text_link" href="https://github.com/Trybukhouski">(GitHub)</a>
+    </p>
+    <p class="text text_small text_light">2021</p>
   </footer>
   <div class="cover">
     <div class="content">
