@@ -1,0 +1,7 @@
+.article {
+  @include container (100%, fit-content, null, $XL);
+
+  &__subtitle {
+    margin-bottom: $L;
+  }
+}

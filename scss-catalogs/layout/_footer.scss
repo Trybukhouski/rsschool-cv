@@ -1,0 +1,15 @@
+.footer {
+  @include container (80vw, fit-content, $dark, 30px);
+  display: flex;
+  justify-content: space-between;
+
+  @include extrasmall {
+    width: 100%;
+  }
+}
+
+.dev-info {
+  &__text {
+    margin-bottom: $S;
+  }
+}

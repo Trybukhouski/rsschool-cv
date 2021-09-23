@@ -1,0 +1,10 @@
+.card {
+  @include container (100%, 100%, $blue, $M);
+  overflow-x: scroll;
+
+  @include large {
+    &:first-child {
+      grid-column: left/right;
+    }
+  }
+}

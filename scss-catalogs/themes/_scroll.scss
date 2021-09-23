@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: null;
+}
+
+::-webkit-scrollbar-track {
+  background-color: null;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: null;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: $yellow;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: null;
+}
+
+::-webkit-resizer {
+  width: 15px;
+  height: 15px;
+}

@@ -1,0 +1,26 @@
+.menu {
+  @include container(fit-content, fit-content, $yellow, null);
+  padding-right: $XL * 2;
+  display: flex;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+
+  @include medium {
+    width: 100%;
+  }
+
+  @include small {
+    flex-direction: column-reverse;
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+  &_on {
+    visibility: visible;
+  }
+}

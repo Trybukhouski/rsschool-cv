@@ -1,0 +1,21 @@
+.main {
+  @include container (80vw, fit-content, $white, null);
+  display: grid;
+  grid-template-columns: [left] 1fr 2fr [right];
+  grid-template-rows: fit-content fit-content;
+
+  @include medium {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include extrasmall {
+    width: 100%;
+  }
+
+  &__section {
+    &:last-child {
+      grid-column: left/right;
+    }
+  }
+}

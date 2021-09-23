@@ -1,0 +1,9 @@
+.list {
+  li {
+    margin-bottom: $L;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

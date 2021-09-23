@@ -1,0 +1,21 @@
+.cover {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: $dark-opacity;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.content {
+  width: 50vw;
+  height: 80vh;
+  background-color: $white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10vh auto 0;
+}

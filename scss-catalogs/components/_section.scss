@@ -1,0 +1,15 @@
+.section {
+  @include container (100%, fit-content, $white, null);
+
+  &_grey {
+    background-color: $light-grey;
+  }
+
+  &_blue {
+    background-color: $dark-blue;
+  }
+
+  &__carousel {
+    margin-bottom: $XL;
+  }
+}

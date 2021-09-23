@@ -1,0 +1,40 @@
+.header {
+  @include container (80vw, fit-content, $dark, $XL);
+  position: relative;
+  display: flex;
+  background-image: url("assets/imgs/background.jpg");
+  background-size: cover;
+
+  @include medium {
+    flex-direction: column;
+  }
+
+  @include extrasmall {
+    width: 100%;
+  }
+
+  &__avatar {
+    @include medium {
+      margin: 0 auto $XL;
+    }
+  }
+
+  &__main-info {
+    align-self: center;
+    align-items: flex-start;
+    margin-left: 40px;
+
+    @include medium {
+      margin-left: 0;
+      text-align: center;
+
+      br {
+        display: none;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 25px;
+  }
+}

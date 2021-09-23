@@ -1,0 +1,30 @@
+.avatar {
+  position: relative;
+  border-radius: 0 0 100px 100px;
+  width: 200px;
+  height: 230px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: 1s;
+      cursor: pointer;
+    }
+  }
+
+  .avatar-bg {
+    position: absolute;
+    background-color: $grey;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    z-index: 1;
+  }
+}

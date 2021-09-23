@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.html {
+  &__body {
+    background-color: $grey;
+  }
+}
+
+.body {
+  &__header,
+  &__main,
+  &__footer {
+    margin: auto;
+  }
+}

@@ -1,0 +1,17 @@
+.burger-menu {
+  @include container ($XL, $XL, null, null);
+  position: absolute;
+  top: $XL;
+  right: $XL;
+  z-index: 4;
+  background-image: url("assets/icns/menu-button.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  align-items: flex-end;
+
+  &_on {
+    background-image: url("assets/icns/close-button.svg");
+  }
+}

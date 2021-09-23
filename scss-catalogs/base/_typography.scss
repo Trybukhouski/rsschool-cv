@@ -1,0 +1,100 @@
+.title {
+  @include text-style($poppins, $white, $XL, 600, uppercase, 1);
+}
+
+.subtitle {
+  @include text-style($poppins, $dark, $L, 600, uppercase, 1.3);
+  width: fit-content;
+  padding-bottom: $M;
+  border-bottom: 3px solid $yellow;
+
+  &_white {
+    color: $white;
+  }
+
+  &_underline-dark {
+    border-bottom: 3px solid $dark-yellow;
+  }
+}
+
+.text {
+  @include text-style($poppins, $white, $M, 400, none, 1.5);
+
+  &_small {
+    font-size: $S;
+  }
+
+  &_dark {
+    color: $dark;
+  }
+
+  &_light {
+    opacity: 0.7;
+  }
+
+  &_bold {
+    font-weight: 600;
+  }
+
+  &_yellow {
+    color: $yellow;
+  }
+
+  &_green {
+    color: $green;
+  }
+
+  &_link {
+    &:hover {
+      cursor: pointer;
+      color: $dark-yellow;
+    }
+  }
+}
+
+// .text {
+//   @include text-style($dark-blue, $poppins, 1rem, none);
+//   margin-bottom: 1.5rem;
+
+//   &_white {
+//     color: $white;
+//   }
+
+//   &_yellow {
+//     color: $yellow;
+//   }
+
+//   &_title {
+//     text-transform: uppercase;
+//     font-size: 2rem;
+//   }
+
+//   &_h1 {
+//     text-transform: uppercase;
+//     font-size: 1.3rem;
+//     border-bottom: 3px solid $yellow;
+//     padding-bottom: 1rem;
+//     width: min-content;
+//   }
+
+//   &_bold {
+//     font-weight: 600;
+//   }
+
+//   &_light {
+//     opacity: 0.5;
+//   }
+
+//   &_mini {
+//     font-size: 0.8rem;
+//   }
+
+//   &_link {
+
+//     &:hover {
+//       color: $dark-yellow;
+//     }
+
+//   }
+
+// }

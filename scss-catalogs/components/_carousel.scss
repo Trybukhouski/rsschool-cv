@@ -1,0 +1,15 @@
+.carousel {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: $L;
+  justify-self: stretch;
+
+  @include large {
+    grid-template-columns: [left] 1fr 1fr [right];
+  }
+
+  @include small {
+    display: flex;
+    flex-direction: column;
+  }
+}
