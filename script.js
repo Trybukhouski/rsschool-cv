@@ -46,5 +46,6 @@ function toggleMenu() {
 
 const education = [
   ["Course EPAM UPSkill Lab - EPAM", "UpSkillLab_Certificate"],
-  ["Course JS/FE Pre-school (JavaScript) - RS SCHOOL", "JS_FE_Pre_School_Certificate"]
+  ["Course JS/FE Pre-school (JavaScript) - RS SCHOOL", "JS_FE_Pre_School_Certificate"],
+  ["iTechArt Group","iTechArt_Certificate"]
 ]
